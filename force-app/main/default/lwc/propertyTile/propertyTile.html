@@ -7,6 +7,9 @@
                 <h1 class="truncate slds-text-heading_small">
                     <strong>{property.City__c} • </strong>{property.Name}
                 </h1>
+                <c-property-tile-field 
+                days-on-market={property.Days_On_Market__c}
+                ></c-property-tile-field >
                 <p>Beds: {property.Beds__c} - Baths: {property.Baths__c}</p>
                 <p>
                     <lightning-formatted-number
