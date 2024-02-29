@@ -52,6 +52,7 @@ public with sharing class PropertyController {
                 Address__c,
                 City__c,
                 State__c,
+                Days_On_Market__c,
                 Description__c,
                 Price__c,
                 Baths__c,
