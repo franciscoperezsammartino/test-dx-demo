@@ -232,12 +232,6 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Type__c</field>
-            <value>
-                <elementReference>Property_Type</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
             <field>Zip__c</field>
             <value>
                 <elementReference>property_address.postalCode</elementReference>
@@ -473,15 +467,6 @@
         <connector>
             <targetReference>address</targetReference>
         </connector>
-        <fields>
-            <name>Property_Type</name>
-            <choiceReferences>Property_Type_Choice_Set</choiceReferences>
-            <dataType>String</dataType>
-            <fieldText>Type of Property</fieldText>
-            <fieldType>DropdownBox</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>false</isRequired>
-        </fields>
         <fields>
             <name>property_name</name>
             <dataType>String</dataType>
