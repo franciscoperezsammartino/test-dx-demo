@@ -52,11 +52,13 @@ public with sharing class PropertyController {
                 Address__c,
                 City__c,
                 State__c,
+                Days_On_Market__c,
                 Description__c,
                 Price__c,
                 Baths__c,
                 Beds__c,
                 Thumbnail__c,
+                Type__c,
                 Location__Latitude__s,
                 Location__Longitude__s
             FROM Property__c
