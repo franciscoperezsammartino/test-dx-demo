@@ -57,6 +57,7 @@ public with sharing class PropertyController {
                 Baths__c,
                 Beds__c,
                 Thumbnail__c,
+                Type__c,
                 Location__Latitude__s,
                 Location__Longitude__s
             FROM Property__c
