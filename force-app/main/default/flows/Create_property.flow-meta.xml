@@ -474,21 +474,21 @@
             <targetReference>address</targetReference>
         </connector>
         <fields>
+            <name>Property_Type</name>
+            <choiceReferences>Property_Type_Choice_Set</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Type of Property</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
             <name>property_name</name>
             <dataType>String</dataType>
             <fieldText>Property Name</fieldText>
             <fieldType>InputField</fieldType>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
-        </fields>
-        <fields>
-            <name>Property_Type</name>
-            <choiceReferences>Property_Type_Choice_Set</choiceReferences>
-            <dataType>String</dataType>
-            <fieldText>Property Type</fieldText>
-            <fieldType>DropdownBox</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>false</isRequired>
         </fields>
         <fields>
             <name>property_description</name>
